@@ -1,10 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
-$END$
+<div><table border="3px"><tr><th>
+    <p>
+    <h1>这是一段测试代码</h1>
+    <h2>这是一段测试代码</h2>
+    <h3>这是一段测试代码</h3>
+    <h4>这是一段测试代码</h4>
+    <h5>这是一段测试代码</h5>
+    <h6>这是一段测试代码</h6></p></th></tr>
+</table>
+</div>
+<div>
+    <!--    this.HTML_DECODE = {
+        "&lt;"  : "<",
+        "&gt;"  : ">",
+        "&amp;" : "&",
+        "&nbsp;": " ",
+        "&quot;": "\"",
+        "&copy;": "©"
+        作者：开发之路永无止境
+        链接：https://juejin.cn/post/6847902203282194439
+        来源：稀土掘金
+        著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。-->
+    <p>
+    <p style="font-weight:200; font-size: 50px">&lt;br&gt;</p><br>
+    asdfjasldflksdjflasdfjasldflksdjfla<br>
+    sdfjasldflksdjflasdfjasldflksdjflas<br>
+    dfjasldflksdjflasdfjasldflksdjflasd<br>
+    fjasldflksdjflasdfjasldflksdjflasdf<br>
+    jasldflksdjflasdfjasldflksdjflasdfj<br>
+    asldflksdjflasdfjasldflksdjflasdfja<br>
+    sldflksdjflasdfjasldflksdjflasdfjas<br>
+    ldflksdjflasdfjasldflksdjflasdfjasl<br>
+    </p>
+</div>
+<div>
+    <p>form</p>
+    <form>
+        <input type="button" value="button"><br/>
+        带搜索的多选
+        <input type="search" list="weather">
+        <datalist id="weather">
+            <optgroup label="天气"></optgroup>
+            <option>多云</option>
+            <option>晴天</option>
+            <option>中雨</option>
+            <option>雾霾</option>
+            <option>阵雨</option>
+        </datalist>
+        <br/>
+        <input type="time" min="09:00" max="18:00" required><br/>
+        <input type="url" placeholder="www.example.com" pattern="https://."><br/>
+        <input type="tel" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" placeholder="130-8888-9999"><br/>
+        <input type="range" min="0" max="100" step="0.1" value="20" style="width: 900px;"><br/>
+        <!--补充-->
+
+
+    </form>
+</div>
+
+
+<div>
+    <button>
+        button
+    </button>
+</div>
+<div>
+    <p>img</p>
+    <img src="./images/Weixin Image_20230711205135.jpg" width="100px" height="auto">
+</div>
+<div>
+    <p>span两种用法</p>
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
+    <span>4</span>
+    <span>5</span>
+    <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span>
+</div>
+<hr/>
+<div>
+    <audio controls loop style="width: 600px">
+        <source src="./audio/cccp.mp3">
+        您的浏览器不支持此音频
+    </audio>
+</div>
+<br/>
+<div>
+    <video controls loop style="width: 600px; height: auto">
+        <source src="./video/cccp.mp4" type="video/mp4">
+        您的浏览器不支持此视频
+    </video>
+</div>
+<div>
+    <!--https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/select-->
+
+    <select style="width: 300px; height: 100px;" multiple>
+        <optgroup label="动物"></optgroup>
+        <option>猪</option>
+        <option>鼠</option>
+        <option>兔</option>
+        <option selected>狗</option>
+    </select>
+</div>
+
+<div>
+    <textarea cols="20" rows="10" style="">请在此输入文字。。。</textarea>
+</div>
+<div>
+    <!--    https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/ul-->
+    <table border="1">
+        <tr>
+            <th>
+                <ul type="circle">
+                    <li>狗狗</li>
+                    <li>猫猫</li>
+                    <li>羊羊</li>
+                    <li>鼠鼠</li>
+                </ul>
+            </th>
+            <th>
+                <ul type="disc">
+                    <li>狗狗</li>
+                    <li>猫猫</li>
+                    <li>羊羊</li>
+                    <li>鼠鼠</li>
+                </ul>
+            </th>
+            <th rowspan="3">
+                <a href="https://www.bilibili.com/">
+                    <img src="./images/Weixin Image_20230711205144.jpg" width="150px">
+                    <br/>
+                    <p>点击图片打开哔哩哔哩</p>
+                </a>
+            </th>
+            <th rowspan="3">
+                <a href="./images/Weixin%20Image_20230711205200.jpg" download="true">
+                    <img src="./images/Weixin%20Image_20230711205200.jpg" width="150px">
+                    <br/>
+                    <p>下载图片</p>
+                </a>
+            </th>
+            <th rowspan="3">
+                <iframe width="500px" height="600px" src="https://www.bilibili.com/"></iframe>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <ol type="1">
+                    <li>好的</li>
+                    <li>好的</li>
+                    <li>好的</li>
+                    <li>好的</li>
+                </ol>
+            </th>
+            <th>
+                <ol type="A">
+                    <li>好的</li>
+                    <li>好的</li>
+                    <li>好的</li>
+                    <li>好的</li>
+                </ol>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <dl>
+                    <dt>对?</dt>
+                    <dd>不对</dd>
+                </dl>
+                <dl>
+                    <dt>对?</dt>
+                    <dd>不对</dd>
+                </dl>
+            </th>
+            <th>
+                <dl>
+                    <dt>对?</dt>
+                    <dd>不对</dd>
+                </dl>
+                <dl>
+                    <dt>对?</dt>
+                    <dd>不对</dd>
+                </dl>
+            </th>
+        </tr>
+
+    </table>
+</div>
+
+<div></div>
+<div></div>
+
+
+<div></div>
 </body>
 </html>
