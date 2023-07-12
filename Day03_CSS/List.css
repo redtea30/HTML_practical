@@ -1,0 +1,24 @@
+/*css中设置border*/
+table, td {
+    border: 0px solid #000000;
+    border-collapse: separate;
+    margin: 0px;
+    padding:0px
+}
+
+table{
+    width: 1000px;
+    height: 1000px;
+}
+tbody tr:nth-child(2n){
+    background-color: red;
+}
+tbody tr:nth-child(2n-1){
+    background-color: blue;
+}
+/*援助*/
+/*https://blog.csdn.net/qsloony/article/details/80135081*/
+table tbody tr:hover{
+    color: green;
+    background-color: green;
+}

@@ -1,0 +1,152 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+    color: #555;
+    font-size: 14px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+td, th, caption {
+    font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-size: 100%;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+a {
+    color: #555;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    border: none;
+}
+
+ol, ul, li {
+    list-style: none;
+}
+
+input, textarea, select, button {
+    font: 14px Verdana, Helvetica, Arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    *zooms: 1;
+}
+
+/*作者：日拱一寸
+链接：https://juejin.cn/post/6963816902791528461
+来源：稀土掘金
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。*/
+
+
+/*### 子元素选择器
+子元素选择器（child selector）是以一个大于号（>）作为标识符，后面紧跟子元素的选择器。子元素选择器只能选择作为某元素子元素的元素。*/
+.div2 > [style] {
+    font-size: 20px;
+    background-color: aqua;
+    font-family: Calibri;
+    text-transform: capitalize;
+    text-indent: 5em;
+}
+
+
+/*后代选择器 使用空格*/
+.div1 tr th {
+    background: red;
+    width: 800px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 0px;
+
+}
+
+/*子元素选择器（child selector）是以一个大于号（>）作为标识符，后面紧跟子元素的选择器。子元素选择器只能选择作为某元素子元素的元素。*/
+.div1 tr th p > h1, h2, h3, h4, h5, h6 {
+    font-size: 20px;
+    font-style: oblique;
+    text-align: center;
+}
+
+/*属性选择器（attribute selector）是以一个方括号（[]）作为标识符，后面紧跟属性名。属性名是大小写敏感的。属性选择器可以在多个元素中使用，也可以在一个元素中使用多个属性名,多个属性名间使用逗号隔开。*/
+.div1 {
+    /*待调整布局*/
+}
+
+h1 {
+    font-size: 10px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 40px;
+}
+
+h5 {
+    font-size: 50px;
+}
+
+h6 {
+    font-size: 60px;
+}
+
+/*文本*/
+/*https://www.runoob.com/css/css-text.html*/
+#brexample {
+    font-family: "Times New Roman";
+    font-size: 20px;
+    text-indent: 2em;
+    text-align: center;
+    text-shadow: 2px 2px silver;
+    word-spacing: 30px;
+    line-height: 40px;
+}
+
+/*[attr=value]：选取带有指定属性和值的元素。*/
+[target="_self"]{
+    text-align: center;
+    line-height: 30px;
+}
+/*[attr~=value]：选取属性值中包含指定词汇的元素。*/
+[class~="456"]{
+    font-size: 30px;
+}

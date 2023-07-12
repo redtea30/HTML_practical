@@ -1,0 +1,32 @@
+.div3::before {
+    content: " ";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 200px solid red;
+    border-left: 300px solid rgb(0, 0, 0, 0);
+    border-right: 300px solid rgb(0, 0, 0, 0);
+    transform: translate(-276px, 190px) rotate(36deg);
+
+}
+
+.div3 {
+    width: 0;
+    height: 0;
+    border-bottom: 240px solid red;
+    border-left: 80px solid rgb(0, 0, 0, 0);
+    border-right: 80px solid rgb(0, 0, 0, 0);
+    transform: translate(400px, 150px);
+}
+
+
+.div3::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 200px solid red;
+    border-left: 300px solid rgb(0, 0, 0, 0);
+    border-right: 300px solid rgb(0, 0, 0, 0);
+    transform: translate(-316px, 190px) rotate(327deg);
+}
