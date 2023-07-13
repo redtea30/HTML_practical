@@ -19,6 +19,5 @@ tbody tr:nth-child(2n-1){
 /*援助*/
 /*https://blog.csdn.net/qsloony/article/details/80135081*/
 table tbody tr:hover{
-    color: green;
-    background-color: green;
+    background-color: yellow;
 }
