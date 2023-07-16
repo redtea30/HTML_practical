@@ -1,0 +1,46 @@
+.main {
+    width: 1200px;
+    height: 600px;
+    border: 1px solid black;
+    box-sizing: content-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.biger {
+    width: 300px;
+    height: 400px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin: 0;
+    padding: 5px;
+}
+
+.smaller {
+    width: 300px;
+    height: 200px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin: 0;
+    padding: 5px;
+}
+#header{
+    width: 1200px;
+    height: 60px;
+    border: 1px solid black;
+display: block;
+text-align:center;
+}
+#sidebar{
+    width: 50px;
+    height: 400px;
+    position: fixed;
+    top: 100px;
+    right: 30px;
+    border: 1px solid black;
+
+}
+body{
+    height: 1200px;
+}

@@ -1,0 +1,54 @@
+#container {
+    width: 1100px;
+    height: 1100px;
+    border: 3px solid black;
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 50px;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-shrink: 1;
+}
+
+.div {
+    flex-basis: 200px;
+
+}
+
+#div1 {
+    background-color: #00A2E8;
+}
+
+#div2 {
+    background-color: #22B14C;
+}
+
+#div3 {
+    background-color: #7092BE;
+}
+
+#div4 {
+    background-color: #B5E61D;
+}
+
+#div5 {
+    background-color: #C8BFE7;
+}
+
+#div6 {
+    background-color: #EFE4B0;
+}
+
+#div7 {
+    background-color: silver;
+}
+
+#div8 {
+    background-color: blue;
+}
+
+#div9 {
+    order: -1;
+    background-color: darkgray;
+    flex-grow: 2;
+}
