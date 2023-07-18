@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="container">
+    <img src="../image/1-1.jpeg">
+    <img src="../image/1-2.jpeg">
+</div>
+</body>
+<style>
+    img{
+        width: 100%;
+        animation: test1 5s ease-in-out infinite alternate;
+    }
+    .container{
+        width: 100%;
+        display: flex;
+        overflow: hidden;
+        flex-wrap: nowrap;
+    }
+
+    @keyframes test1 {
+        from{transform: translate(0%)}
+        to{transform: translate(-100%)}
+    }
+</style>
+
+</html>
