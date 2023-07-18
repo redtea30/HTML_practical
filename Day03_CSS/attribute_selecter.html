@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="div1 123" type="text"></div>
+<div class="div1 123" rel=""></div>
+<div class="div1 abc"></div>
+</body>
+<style>
+    /* 属性选择器 */
+    [type="text"] {
+        background-color: black;
+    }
+
+    [rel]{
+        background-color: #000000;
+    }
+    [class~=abc]{
+    background-color: #000000;
+    }
+
+
+    .div1 {
+        width: 100px;
+        height: 100px;
+        margin:10px;
+    }
+</style>
+</html>

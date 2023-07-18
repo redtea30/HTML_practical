@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+
+            background: rgb(63, 94, 251);
+            background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+        }
+
+        .windmill {
+            width: 300px;
+            height: 300px;
+            margin: auto;
+            /*animation: test1 2s linear infinite;*/
+        }
+
+
+        .windmill:hover {
+            animation: test1 2s linear infinite;
+        }
+
+
+        .windmill:active {
+            animation: test1 2s linear infinite reverse;
+        }
+
+
+        #unvisited {
+            width: 200px;
+            height: 200px;
+            background-color: black;
+        }
+
+
+
+        @keyframes test1 {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+<p style="text-align: center">hover正转<br>
+    active反转<br>
+
+</p>
+<div class="windmill">
+    <a href="#"></a>
+    <img src="./images/windmill_head.png" width="300px" height="300px">
+</div>
+</body>
+</html>

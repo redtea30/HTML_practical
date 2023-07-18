@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="container">
+    <img id="img1" src="./images/Weixin%20Image_20230711205153.jpg">
+    <img id="img2" src="./images/Weixin%20Image_20230711205153.jpg">
+    <img id="img3" src="./images/Weixin%20Image_20230711205153.jpg">
+    <img id="img4" src="./images/Weixin%20Image_20230711205153.jpg">
+    <img id="img5" src="./images/Weixin%20Image_20230711205153.jpg">
+</div>
+</body>
+
+<style>
+    body{
+        margin: 100px auto;
+    }
+    img {
+        width: 300px;
+        height: 300px;
+    }
+    #div1{
+        width: 300px;
+        height: 300px;
+    }
+
+    .container {
+        width: 1600px;
+        height: 300px;
+        animation: test1 10s linear infinite;
+        transform-style: preserve-3d;
+    }
+
+    @keyframes test1 {
+        from {
+            transform: rotateY(0deg)
+        }
+        to {
+            transform: rotateY(360deg)
+        }
+    }
+
+    #img1 {
+        transform:translateX(490px) translateZ(-240px) rotateY(-144deg);
+    }
+
+    #img2 {
+        transform:translateX(100px) rotateY(-72deg);
+    }
+
+    #img3 {
+        transform: rotateY(0deg) translateZ(150px);
+    }
+
+    #img4 {
+        transform:translateX(-100px) rotateY(72deg);
+    }
+    #img5 {
+        transform:  translateX(-490px) translateZ(-240px) rotateY(144deg);
+    }
+
+</style>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <img src="./images/img.png" width="50px" height="50px">
+</div>
+</body>
+<style>
+    body {
+        width: 1000px;
+        height: 500px;
+        border: 1px solid black;
+    }
+
+    div {
+        width: 50px;
+        height: 50px;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        animation-duration: 10s;
+        animation-name: test1;
+        animation-timing-function: linear;
+    }
+
+
+    @keyframes test1 {
+        0% {
+            transform: translate(0vw, 0vh);
+        }
+        5% {
+            transform: translate(50px, 200px);
+        }
+        10% {
+            transform: translate(80px, 300px);
+        }
+        20% {
+            transform: translate(100px, 500px);
+        }
+        40% {
+            transform: translate(200px, 50px);
+        }
+        50% {
+            transform: translate(250px, 500px);
+        }
+        60% {
+            transform: translate(300px, 150px);
+        }
+        70% {
+            transform: translate(350px, 500px);
+        }
+        75%{
+            transform: translate(400px, 200px);
+
+        }
+        80% {
+            transform: translate(400px, 500px);
+        }
+        85%{
+            transform: translate(450px, 300px);
+        }
+        100% {
+            transform: translate(500px, 500px) ;
+        }
+    }
+
+
+</style>
+</html>
