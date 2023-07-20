@@ -25,14 +25,16 @@
     margin: 0;
     padding: 5px;
 }
-#header{
+
+#header {
     width: 1200px;
     height: 60px;
     border: 1px solid black;
-display: block;
-text-align:center;
+    display: block;
+    text-align: center;
 }
-#sidebar{
+
+#sidebar {
     width: 50px;
     height: 400px;
     position: fixed;
@@ -41,6 +43,7 @@ text-align:center;
     border: 1px solid black;
 
 }
-body{
+
+body {
     height: 1200px;
 }

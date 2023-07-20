@@ -1,10 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
-$END$
+<div class="last-row">
+    <div class="description_list">
+        <dl>
+            <dt>选购指南</dt>
+            <dd>手机</dd>
+            <dd>电视</dd>
+            <dd>笔记本</dd>
+            <dd>平板</dd>
+            <dd>穿戴</dd>
+            <dd>耳机</dd>
+            <dd>家电</dd>
+            <dd>路由器</dd>
+            <dd>音箱</dd>
+            <dd>配件</dd>
+        </dl>
+        <dl>
+            <dt>服务中心</dt>
+            <dd>申请售后</dd>
+            <dd>售后政策</dd>
+            <dd>维修服务价格</dd>
+            <dd>订单查询</dd>
+            <dd>以旧换新</dd>
+            <dd>保障服务</dd>
+            <dd>防伪查询</dd>
+            <dd>F码通道</dd>
+        </dl>
+        <dl>
+            <dt>线下门店</dt>
+            <dd>小米之家</dd>
+            <dd>服务网点</dd>
+            <dd>授权体验店/专区</dd>
+        </dl>
+        <dl>
+            <dt>关于小米</dt>
+            <dd>了解小米</dd>
+            <dd>加入小米</dd>
+            <dd>投资者关系</dd>
+            <dd>可持续发展</dd>
+            <dd>廉洁举报</dd>
+        </dl>
+        <dl>
+            <dt>关注我们</dt>
+            <dd>新浪微博</dd>
+            <dd>官方微信</dd>
+            <dd>联系我们</dd>
+            <dd>公益基金会</dd>
+        </dl>
+    </div>
+    <div class="tel_container">
+        <div class="tel">
+            <h1 style="color: orange; font-weight: 300;line-height: 0">400-100-5678</h1>
+            <p>8:00-18:00（仅收市话费）</p>
+            <form style="text-align: center"><input type="button" value="人工客服"
+                         style="width: 150px;height: 30px; background-color:white; border: 1px solid black; "/></form>
+        </div>
+    </div>
+</div>
 </body>
+<style>
+    .description_list {
+        display: flex;
+        justify-content: space-evenly;
+        font-family: Arial, serif;
+        width: 800px;
+        margin: auto;
+        border: 1px solid black;
+    }
+
+    dl {
+        margin: 0;
+        padding: 0;
+        display: block;
+        text-align: left;
+    }
+
+    dd {
+        margin-left: 0;
+        font-weight: 300;
+        font-size: 11px;
+        line-height: 20px;
+    }
+
+    dt {
+        font-weight: 400;
+        line-height: 50px;
+        font-size: 15px;
+    }
+
+    .last-row {
+        width: 1100px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+
+    .tel_container {
+        width: 300px;
+        height: 250px;
+        border: 1px solid black;
+
+    }
+
+    .tel {
+        width: 200px;
+        padding: 50px 50px;
+        font-family: Arial, serif;
+    }
+</style>
 </html>

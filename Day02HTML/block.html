@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"/>
     <title>Title</title>
 </head>
 <body>
@@ -29,14 +29,119 @@
         <li>ghi</li>
     </ol>
 </div>
-
+<!--传统表单-->
 <div>
     <table>
+        <caption>
+            测试表单
+        </caption>
         <tr>
-
+            <th>表头1</th>
+            <th>表头2</th>
         </tr>
-
+        <tr>
+            <td>表单1</td>
+            <td>表单2</td>
+        </tr>
     </table>
+</div>
+<!--thead tbody tfoot -->
+<div>
+    <table>
+        <caption>
+            表格标题
+        </caption>
+        <thead>
+        <td>123</td>
+        <td>123</td>
+        </thead>
+        <tbody>
+        <tr>
+            <td>123</td>
+            <td>123</td>
+        </tr>
+        </tbody>
+
+        <tfoot>
+        <td>123</td>
+        <td>123</td>
+        </tfoot>
+    </table>
+</div>
+
+<div>
+    <form action="url" method="post">
+        // 表单控件
+        <input/>
+        <button>提交</button>
+    </form>
+</div>
+<hr/>
+<div>
+    <address>
+        作者:<a href="mailto:test@example.com">测试</a><br/>XX公司<br/>
+        美国洛杉矶<br/>
+        电话:xxxxxxxxxx <<br/>
+        本文发布于2023年1月10日
+    </address>
+</div>
+
+<div>
+    <blockquote>
+        <p>这是一段测试文字</p>
+    </blockquote>
+    <blockquote cite="http://www.bilibli.com">
+        <p>这是一段测试文字</p>
+    </blockquote>
+</div>
+<div>
+    <article>
+        <h2>article这是一段测试文字</h2>
+
+        <img src="./images/Weixin Image_20230711205147.jpg" width="300px"/>
+        <aside>
+            <p>本文摘自......</p>
+        </aside>
+    </article>
+    <aside>
+        <h2>相关文章</h2>
+        <ul>
+            <li>文章1</li>
+            <li>文章2</li>
+        </ul>
+    </aside>
+    <details>
+        <summary>更多信息</summary>
+        这里是默认隐藏的额外内容,用户点击标题展开。
+    </details>
+</div>
+<div>
+    <dialog open>
+        对话框内容
+
+    </dialog>
+
+</div>
+<div>
+    <form>
+        <fieldset>
+            <legend>个人信息</legend>
+            姓名:<input type="text"><br>
+            邮箱:<input type="email">
+        </fieldset>
+        <fieldset>
+            <legend>其他信息</legend>
+            备注:<textarea></textarea>
+        </fieldset>
+    </form>
+</div>
+<div>
+    <figure>
+        <img src="./images/Weixin%20Image_20230711205135.jpg" width="300px">
+
+        <figcaption>图片说明文字</figcaption>
+
+    </figure>
 </div>
 </body>
 </html>
